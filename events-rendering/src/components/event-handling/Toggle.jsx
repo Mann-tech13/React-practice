@@ -14,7 +14,7 @@ export default class Toggle extends Component {
     render() {
         return (
             <div>
-                <button onClick={this.handleClick} className={this.state.isToggled ? 'ON' : 'OFF'}>
+                <button onClick={this.handleClick} className={this.state.isToggled ? 'ON' : 'OFF'} id="toggle">
                     {this.state.isToggled ? 'ON' : 'OFF'}
                 </button>
             </div>
