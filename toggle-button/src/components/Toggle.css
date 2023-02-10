@@ -1,0 +1,21 @@
+div{
+    width: 100%;
+}
+button{
+    width: 30%;
+    margin: 10% 30%;
+    padding: 50px;
+    font-size: 54px;
+    font-weight: bold;
+}
+.OFF{
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid black;
+}
+
+.ON{
+    background-color: black;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
